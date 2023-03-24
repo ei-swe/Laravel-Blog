@@ -32,6 +32,7 @@
                 </select>
             </div>
             <input type="submit" value="Add Article" class="btn btn-primary">
+            <h1>hi</h1>
         </form>
     </div>
 @endsection

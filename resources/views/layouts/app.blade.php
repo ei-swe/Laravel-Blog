@@ -34,9 +34,12 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nam-item">
+                            @guest
                             <a href="{{ url('/articles/add') }}" class="nav-link text-success">
                                 +Add Article
-                            </a>
+                            </a> 
+                            @endguest
+                           
                         </li>
                     </ul>
 
